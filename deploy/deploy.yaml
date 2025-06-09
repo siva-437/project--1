@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-nginx
 spec:
-  replicas: 9
+  replicas: 14
   selector:
     matchLabels:
       app: simple-nginx
